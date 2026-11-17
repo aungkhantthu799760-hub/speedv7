@@ -28,7 +28,7 @@ HITS_FILE = "hits.txt"
 CONCURRENCY_LIMIT = 8         # >10 → Ruijie 429
 TIMEOUT = 5
 SESSION_TTL = 280             # Ruijie sign expire ~300s
-RUIJIE_BASE = "https://portal-as.ruijienetworks.com"
+RUIJIE_BASE =https://portal-mm-as.ruijienetworks.com"
 RUIJIE_WIFIDOG = f"{RUIJIE_BASE}/api/auth/wifidog"
 RUIJIE_VOUCHER = f"{RUIJIE_BASE}/api/auth/voucher/?lang=en_US"
 
